@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<link
+		rel="stylesheet"
+		href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
+	<title>ГАЗОВОЕ ДЕМПФИРОВАНИЕ</title>
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div class="app"></div>
+<div class="header">
+	<div class="container">
+		<div class="brand">
+			ГАЗОВОЕ ДЕМПФИРОВАНИЕ ЧЭ МИКРОАКСЕЛЕРОМЕТРОВ И МИКРОДАТЧИКОВ ДАВЛЕНИЯ
+		</div>
+	</div>
+</div>
+<div class="container main">
+	<div class="leftRow">
+        <div class="formul">
+            <div class="formulContainer">
+                <b>Коэффициент демпфирования в направлении оси y.</b>
+                <br>
+                <div class="formulPicture">
+                    <img src="./img/formuls/maxCountImpuls.jpg" />
+                </div>
+                <form id="frm1" action="/">
+                    Введите m:  <input type="text" name="lname" value=""><br>
+                    Введите a:  <input type="text" name="lname" value=""><br>
+                    Введите b:  <input type="text" name="lname" value=""><br>
+                    Введите h:  <input type="text" name="lname" value=""><br><br>
+                </form>
+                <b>k= </b>
+                <p id="ans1"></p>
+                <button id="frm1b">Расчитать</button>
+            </div>
+
+            <div class="formulContainer">
+                <b>Коэффициент демпфирования для подвижных узлов, имеющих форму квадрата (a = b).</b>
+                <br>
+                <div class="formulPicture">
+                    <img src="./img/formuls/DempferCoefSquare.jpg" />
+                </div>
+                <form id="frm2" action="/">
+                    Введите m:  <input type="text" name="lname" value=""><br>
+                    Введите a:  <input type="text" name="lname" value=""><br>
+                    Введите h:  <input type="text" name="lname" value=""><br><br>
+                </form>
+                <b>k= </b>
+                <p id="ans2"></p>
+                <button id="frm2b">Расчитать</button>
+            </div>
+
+            <div class="formulContainer">
+                <b>Коэффициент демпфирования для подвижных узлов, имеющих форму круга радиусом R.</b>
+                <br>
+                <div class="formulPicture">
+                    <img src="./img/formuls/DempferCoefCircle.jpg" />
+                </div>
+                <form id="frm3" action="/">
+                    Введите m: <input type="text" name="lname" value=""><br>
+                    Введите R: <input type="text" name="lname" value=""><br>
+                    Введите h: <input type="text" name="lname" value=""><br><br>
+                </form>
+                <b>k= </b>
+                <p id="ans3"></p>
+                <button id="frm3b">Расчитать</button>
+            </div>
+
+            <div class="formulContainer">
+                <b>Коэффициент демпфирования для подвижных узлов, имеющих форму прямоугольника (a >> b).</b>
+                <br>
+                <div class="formulPicture">
+                    <img src="./img/formuls/DempferCoefRectangle.jpg" />
+                </div>
+                <form id="frm4" action="/">
+                    Введите m: <input type="text" name="lname" value=""><br>
+                    Введите a: <input type="text" name="lname" value=""><br>
+                    Введите b: <input type="text" name="lname" value=""><br>
+                    Введите h: <input type="text" name="lname" value=""><br><br>
+                </form>
+                <b>k= </b>
+                <p id="ans4"></p>
+                <button id="frm4b">Расчитать</button>
+            </div>
+        </div>
+	</div>
+	<div class="rightRow">
+        <img src="./img/4-6.jpg" />
+        <img src="./img/4-7.jpg" />
+	</div>
+</div>
+<div class="footer">
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>

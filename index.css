@@ -1,0 +1,47 @@
+/* HEADER */
+.header {
+	background-color: #2d9bf0;
+	color: white;
+}
+
+.brand {
+	font-size: 1.6rem;
+	font-weight: 700;
+	padding: 1rem;
+	text-align: center;
+}
+
+.leftRow {
+    float: left;
+    width: 50%;
+}
+
+.rightRow {
+    float: right;
+    width: 50%;
+}
+
+.formulContainer {
+    float: left;
+    width: 60%;
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+
+p {
+    padding-right: 50px;
+}
+
+b {
+    font-size: 20px;
+}
+
+.formulPicture {
+    width: 300px;
+    height: 200px;
+}
+
+img {
+    max-width:100%;
+    max-height:100%;
+}
